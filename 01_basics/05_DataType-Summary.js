@@ -27,10 +27,26 @@
 //     name:"somu",
 //     age:22,
 // }
-const myFunction = function() {
+// const myFunction = function() {
     
-    console.log("HEllo Word");
+//     console.log("HEllo Word");
     
+// }
+
+
+//++++++++++++++++++++++++++++++++++++++++
+// stack(Primitive) , Heap(Non-Primitive) Memorys 
+ 
+let myname = "somuu"
+let anothername = myname
+anothername = "newsomuu"
+console.log(anothername);
+console.log(myname);
+let user ={
+    email : "user@gamil.com",
+    upi : "upi@ybl"
 }
 
-
+let usertwo = user;
+usertwo.email="newuser@gmail.com",
+userupi= "newupi@ybl"
